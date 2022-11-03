@@ -30,7 +30,7 @@ let s:p.inactive.middle = [ [ s:gray, s:black ] ]
 let s:p.inactive.right = [ [ s:white, s:pink ], [ s:pink, s:black ] ]
 let s:p.tabline.left = [ [ s:white, s:black ] ]
 let s:p.tabline.middle = [ [ s:white, s:black] ]
-let s:p.tabline.right = [ [ s:yellow, s:black ], [ s:red, s:black ], [ s:cyan, s:black ] ]
+let s:p.tabline.right = [ [ s:yellow, s:black ], [ s:pink, s:black ], [ s:cyan, s:black ] ]
 let s:p.tabline.tabsel = [ [ s:black, s:white ] ]
 
 let g:lightline#colorscheme#molokai#palette = lightline#colorscheme#flatten(s:p)
